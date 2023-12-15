@@ -1,6 +1,0 @@
-SET ANSI_NULLS ON
-SET QUOTED_IDENTIFIER ON
-
-CREATE TABLE [dbo].[test2] (
-	[Column_2] int
-) ON [PRIMARY]
