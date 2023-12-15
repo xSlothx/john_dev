@@ -11,7 +11,8 @@ CREATE TABLE [dbo].[cisco] (
 	[ETLLoadID] int,
 	[LoadDate] datetime,
 	[UpdateDate] datetime,
-	[Test1] int
+	[Test1] int,
+	[Test2] int
 ) ON [PRIMARY]
 CREATE STATISTICS [_WA_Sys_00000001_6E01572D]
 ON [dbo].[cisco] ([GeographyKey])
