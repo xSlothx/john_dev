@@ -1,0 +1,1 @@
+--DDL Script is not applicable for system role
