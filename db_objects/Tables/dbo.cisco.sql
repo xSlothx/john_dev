@@ -10,7 +10,8 @@ CREATE TABLE [dbo].[cisco] (
 	[RegionCountryName] nvarchar(50) COLLATE SQL_Latin1_General_CP1_CI_AS,
 	[ETLLoadID] int,
 	[LoadDate] datetime,
-	[UpdateDate] datetime
+	[UpdateDate] datetime,
+	[Test1] int
 ) ON [PRIMARY]
 CREATE STATISTICS [_WA_Sys_00000001_6E01572D]
 ON [dbo].[cisco] ([GeographyKey])
