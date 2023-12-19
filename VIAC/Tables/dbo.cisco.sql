@@ -12,7 +12,8 @@ CREATE TABLE [dbo].[cisco] (
 	[LoadDate] datetime,
 	[UpdateDate] datetime,
 	[Test1] int,
-	[Test2] int
+	[Test2] int,
+	[Test3] int
 ) ON [PRIMARY]
 CREATE STATISTICS [_WA_Sys_00000001_6E01572D]
 ON [dbo].[cisco] ([GeographyKey])
